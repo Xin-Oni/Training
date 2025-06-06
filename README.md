@@ -1,35 +1,25 @@
 # 🧠 Training
 
-Welcome to my **Machine Learning Training Ground**!  
-This repository is dedicated to hands-on practice with Python-based machine learning techniques.
+This is my personal practice repository for learning **machine learning with Python**.  
+I'm still a beginner, so this is just a place to try things out and take notes.
 
-## 📌 Purpose
+## 📌 What I'm doing here
 
-To learn and reinforce key machine learning concepts using Python.  
-I will experiment with libraries like:
+- Trying out basic machine learning code
+- Practicing how to use libraries like:
+  - `scikit-learn`
+  - `pandas`
+  - `matplotlib`
+- Learning how to use Jupyter Notebooks and Google Colab
+- Saving my progress and code on GitHub
 
-- `scikit-learn`
-- `pandas`
-- `matplotlib`
-- `numpy`
-- `XGBoost`, `LightGBM` (planned)
+## 💬 Notes
 
-## 🛠️ Contents
+This is not a professional project.  
+Just a learning space for myself.  
+Feel free to look around!
 
-| Folder/File | Description |
-|-------------|-------------|
-| `01_basic_models.ipynb` | Simple linear regression & classification |
-| `02_preprocessing.ipynb` | Data cleaning and feature engineering |
-| `03_model_selection.ipynb` | Train/test split, cross-validation |
-| `README.md` | You're reading it! |
+## 🗓 Started
 
-## 🚀 Goals
+June 2025
 
-- Learn the basics of supervised and unsupervised learning
-- Practice evaluation metrics and model selection
-- Get comfortable using Jupyter notebooks and GitHub
-
-## 🔧 Requirements
-
-```bash
-pip install -r requirements.txt
