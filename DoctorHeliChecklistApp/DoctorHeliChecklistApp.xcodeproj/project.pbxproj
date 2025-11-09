@@ -1,0 +1,120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DoctorHeliChecklistAppApp /* DoctorHeliChecklistApp.swift */ = {isa = PBXBuildFile; };
+		ContentView /* ContentView.swift */ = {isa = PBXBuildFile; };
+		ItemDetailView /* ItemDetailView.swift */ = {isa = PBXBuildFile; };
+		AddItemView /* AddItemView.swift */ = {isa = PBXBuildFile; };
+		SettingsView /* SettingsView.swift */ = {isa = PBXBuildFile; };
+		SupplyItem /* SupplyItem.swift */ = {isa = PBXBuildFile; };
+		ChecklistViewModel /* ChecklistViewModel.swift */ = {isa = PBXBuildFile; };
+		GoogleSheetsService /* GoogleSheetsService.swift */ = {isa = PBXBuildFile; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		App /* DoctorHeliChecklistApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; };
+		AppFile /* DoctorHeliChecklistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; };
+		ContentViewFile /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; };
+		ItemDetailViewFile /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; };
+		AddItemViewFile /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; };
+		SettingsViewFile /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; };
+		SupplyItemFile /* SupplyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; };
+		ChecklistViewModelFile /* ChecklistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; };
+		GoogleSheetsServiceFile /* GoogleSheetsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; };
+		InfoPlist /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		MainGroup = {
+			isa = PBXGroup;
+			children = (
+				AppFile,
+				ViewsGroup,
+				ModelsGroup,
+				ServicesGroup,
+				ResourcesGroup,
+			);
+			sourceTree = "<group>";
+		};
+		ViewsGroup = {
+			isa = PBXGroup;
+			children = (
+				ContentViewFile,
+				ItemDetailViewFile,
+				AddItemViewFile,
+				SettingsViewFile,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ModelsGroup = {
+			isa = PBXGroup;
+			children = (
+				SupplyItemFile,
+				ChecklistViewModelFile,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ServicesGroup = {
+			isa = PBXGroup;
+			children = (
+				GoogleSheetsServiceFile,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ResourcesGroup = {
+			isa = PBXGroup;
+			children = (
+				InfoPlist,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin XCBuildConfiguration section */
+		Debug = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doctorhelichecklist.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		Release = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doctorhelichecklist.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+	};
+	rootObject = MainGroup;
+}
